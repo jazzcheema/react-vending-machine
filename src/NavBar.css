@@ -1,0 +1,29 @@
+.NavBar {
+  background-color: rgb(199, 199, 199);
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.NavBar:hover {
+  background-color: rgb(99, 99, 99);
+  color: rgb(237, 235, 235);
+  cursor: pointer;
+}
+
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+

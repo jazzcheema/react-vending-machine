@@ -1,8 +1,7 @@
-import { useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter, Routes } from "react-router-dom";
 import RoutesList from "./RoutesList";
+import NavBar from "./NavBar"
 
 /** Component for entire page.
  *
@@ -15,6 +14,7 @@ function App() {
   return (
     <div>
       <BrowserRouter>
+      <NavBar />
         <RoutesList />
       </BrowserRouter>
     </div>
